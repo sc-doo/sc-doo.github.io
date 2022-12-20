@@ -1,0 +1,33 @@
+/* подключение шрифтов */
+@font-face {
+  font-family: "gt-regular";
+  src: url("/fonts/gteestiprodisplay_regular.woff");
+}
+@font-face {
+  font-family: "gt-bold";
+  src: url("/fonts/gteestiprodisplay_bold.woff");
+}
+
+body {
+  font-family: "gt-regular", "Arial", sans-serif;
+}
+
+h1 {
+  font-family: "gt-bold", "Arial", sans-serif;
+}
+/* подключение шрифтов */
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar-menu {
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+}
